@@ -8,15 +8,19 @@ ETAPE POUR EXECUTER LE SCRIPT
 
     (Linux/Mac)
     sh`python3 -m venv env`
-    `.` `env/bin/activate`
+    `.` `source env/bin/activate`
     `pip install -r requirements.txt`
 
 
 2. Execution du script :
 
-    sh`.\projprem.py`
+    sh`.\proj.py`
 
 
 3. Une fois le script terminer vous pouvez quitter l'environnement virutel :
 
     sh`deactivate`
+
+
+Pour lancer flake8 : 
+    sh `flake8 --format=html --htmldir=flake-report`
