@@ -1,3 +1,6 @@
+Ce script permet de gerer des tournoi d'echec, celui ci permet de creer et administré un tournoi. Il permet de aussi de creer des joueur.
+Pour selectionner les menu il faut suivre les instruction dans le terminal.
+
 ETAPE POUR EXECUTER LE SCRIPT
 1. Installation et execution de l'environnement virtuel :
 
