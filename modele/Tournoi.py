@@ -122,7 +122,6 @@ class Tournoi():
                 ]
             self.liste_id.remove(joueur_joue_pas)
         nombre_paire = len(self.liste_id)/2
-        # self.__trie ressort list(list(joueur_tournoi))
         liste_joueur_trier = self.__trie(list(self.liste_id))
         if joueur_joue_pas is not None:
             # rajoute celui qui a ete supprimer car ne joue pas le round

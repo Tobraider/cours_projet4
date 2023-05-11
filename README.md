@@ -26,4 +26,4 @@ ETAPE POUR EXECUTER LE SCRIPT
 
 
 Pour lancer flake8 : 
-    sh `flake8 --format=html --htmldir=flake-report`
+    sh `flake8 --format=html --htmldir=flake-report --max-line-length=119`
