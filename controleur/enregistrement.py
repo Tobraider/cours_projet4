@@ -1,7 +1,7 @@
 import json
 
-from modele.Joueur import Joueur
-from modele.Tournoi import Tournoi
+from modele.joueur import Joueur
+from modele.tournoi import Tournoi
 
 
 class Enregistrement():

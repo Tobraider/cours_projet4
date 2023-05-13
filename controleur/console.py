@@ -1,7 +1,7 @@
 from vue.menu import Menu
 
 
-class console():
+class Console():
 
     def __init__(self, joueur_controleur, tournoi_controleur):
         self.joueur_controleur = joueur_controleur

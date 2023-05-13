@@ -1,5 +1,5 @@
 from vue.joueur import VueJoueur
-from modele.Joueur import Joueur
+from modele.joueur import Joueur
 
 
 class JoueurControleur():

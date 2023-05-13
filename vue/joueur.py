@@ -81,11 +81,7 @@ class VueJoueur():
                 # si oui alors mets la date en une donnée
                 if result == '1':
                     print('le joueur va etre enregistré')
-                    liste_result[2] = liste_result[2]
-                    + "/"
-                    + liste_result[3]
-                    + "/"
-                    + liste_result[4]
+                    liste_result[2] = liste_result[2] + "/" + liste_result[3] + "/" + liste_result[4]
                     j = 0
                     c = 0
                 # revient a la liste des question

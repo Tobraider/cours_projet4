@@ -1,9 +1,9 @@
 import os
 
 from controleur.enregistrement import Enregistrement
-from controleur.Joueur import JoueurControleur
-from controleur.Tournoi import TournoiControleur
-from controleur.console import console
+from controleur.joueur import JoueurControleur
+from controleur.tournoi import TournoiControleur
+from controleur.console import Console
 
 # verifi si le dossier existe
 if not os.path.exists("save/"):
@@ -28,4 +28,4 @@ tournoi_controleur = TournoiControleur(bdd)
 
 # intialise le controleur console, ce controleur permet de faire tourner
 # l'application
-console_controleur = console(joueur_controleur, tournoi_controleur)
+console_controleur = Console(joueur_controleur, tournoi_controleur)

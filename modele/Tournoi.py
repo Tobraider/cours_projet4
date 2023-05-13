@@ -1,8 +1,8 @@
 import time
 import random
 
-from modele.Tour import Tour
-from modele.JoueurTournoi import JoueurTournoi
+from modele.tour import Tour
+from modele.joueurTournoi import JoueurTournoi
 
 
 class Tournoi():

@@ -1,5 +1,5 @@
 from vue.tournoi import VueTournoi
-from modele.Tournoi import Tournoi
+from modele.tournoi import Tournoi
 
 
 class TournoiControleur():
